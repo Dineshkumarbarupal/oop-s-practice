@@ -43,21 +43,41 @@
 # s1.student()
 
 
-class Student:
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
+# class Student:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
     
-    @staticmethod
-    def welcome():
-        print("hello from staticmathod")
+#     @staticmethod    # This is a decoretor
+#     def welcome():
+#         print("hello from staticmathod")
 
    
 
-s1 = Student("dinesh",19)
-print(s1.name,s1.age)
+# s1 = Student("dinesh",19)
+# print(s1.name,s1.age)
 
-s1.welcome()
+# s1.welcome()
+
+
+
+# class Student:
+#     def __init__(self):
+#         print("Hello how are you from init funtion")
+
+# s1 = Student()
+# print(s1)
+
+
+class Student:
+    def __init__(self,name):
+        self.name = name 
+    def data(self):
+        print("my name is dinesh")
+
+s1 = Student("Dinesh")
+print(s1.name)
+s1.data()
 
 
 
