@@ -81,15 +81,37 @@
 
 
 
-class Student:
-    def __init__(self ,name):
-        self.name = name
-    def inform(self):
-        print("hello how are you")
+# class Student:
+#     def __init__(self ,name):
+#         self.name = name
+#     def inform(self):
+#         print("hello how are you")
 
-s1 = Student("dinesh")
-print(s1.name)             # output = dinesh
-s1.inform()                # output = hello how are you 
+# s1 = Student("dinesh")
+# print(s1.name)             # output = dinesh
+# s1.inform()                # output = hello how are you 
+
+
+
+# class Student:
+#     def __init__(self,name):
+#         self.name = name
+    
+
+# s1 = Student("vihaan")
+# print(s1.name)         # output = vihaan
+
+class car:
+    name = "toyoto"
+    def __init__(self,name):    # This in a constucter
+        self.name = name
+
+c1 = car("toyoto")
+del(c1.name)
+print(c1.name)
+
+
+
 
 
 
