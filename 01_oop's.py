@@ -69,15 +69,35 @@
 # print(s1)
 
 
-class Student:
-    def __init__(self,name):
-        self.name = name 
-    def data(self):
-        print("my name is dinesh")
+# class Student:
+#     def __init__(self,name):     # contucter 
+#         self.name = name 
+#     def data(self):
+#         print("my name is dinesh")
 
-s1 = Student("Dinesh")
-print(s1.name)
-s1.data()
+# s1 = Student("Dinesh")
+# print(s1.name)
+# s1.data()
+
+
+
+class Student:
+    def __init__(self ,name):
+        self.name = name
+    def inform(self):
+        print("hello how are you")
+
+s1 = Student("dinesh")
+print(s1.name)             # output = dinesh
+s1.inform()                # output = hello how are you 
+
+
+
+
+
+
+
+
 
 
 
